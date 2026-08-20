@@ -212,7 +212,8 @@ export default function Home() {
             <img
               src={Principal}
               alt="Le Principal du Collège I.T.I.E"
-              className="max-w-full max-h-[450px] w-auto h-auto object-contain mx-auto"
+              loading="lazy"
+              className="w-full h-auto object-contain mx-auto max-w-[360px] sm:max-w-[420px] md:max-w-[520px]"
             />
           </div>
         </div>
