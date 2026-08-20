@@ -23,6 +23,10 @@ import InfraFacadeArbre from '../assets/infra2.jpeg';
 import InfraFacadeAngle from '../assets/infra3.jpeg';
 import InfraFacadeRoute from '../assets/infra4.jpeg';
 import InfraBatimentInterieur2 from '../assets/infra5.jpeg';
+import Infrainformatique from '../assets/informatique.jpeg';
+import Infraauto from '../assets/auto.jpeg';
+import Infraelct from '../assets/elect.jpeg';
+
 
 
 // Liste des catégories pour les filtres
@@ -145,21 +149,21 @@ const GALLERY_ITEMS = [
     id: 15,
     title: "Atelier de génie électrique",
     category: "ateliers",
-    image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=1000&auto=format&fit=crop",
+    image: Infraelct,
     caption: "Travaux pratiques des élèves en filière Électrotechnique (F3).",
   },
   {
     id: 16,
     title: "Salle d'informatique",
     category: "ateliers", // Corrigé ici : Informatique est aussi pratique
-    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1000&auto=format&fit=crop",
+    image: Infrainformatique ,
     caption: "Équipements informatiques modernes pour les cours pratiques.",
   },
   {
     id: 17,
     title: "Atelier Mécanique Automobile",
     category: "ateliers",
-    image: "https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?q=80&w=1000&auto=format&fit=crop",
+    image: Infraauto,
     caption: "Apprentissage sur moteurs réels en filières CMA/MVT.",
   },
 ];

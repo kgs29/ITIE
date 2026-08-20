@@ -16,21 +16,21 @@ const NEWS_PREVIEW = [
     date: '12 juillet 2026',
     title: 'Journée portes ouvertes',
     text: "Venez découvrir nos ateliers techniques et rencontrer l'équipe pédagogique.",
-    image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=700&auto=format&fit=crop',
+    // image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=700&auto=format&fit=crop',
   },
   {
     id: 2,
     date: '02 juin 2026',
     title: 'Résultats des examens 2026',
     text: "Nos élèves de Terminale obtiennent d'excellents résultats cette année.",
-    image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=700&auto=format&fit=crop',
+    // image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=700&auto=format&fit=crop',
   },
   {
     id: 3,
     date: '18 mai 2026',
     title: "Semaine de l'excellence technique",
     text: "Exposition des réalisations des élèves en filières industrielles.",
-    image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=700&auto=format&fit=crop',
+    // image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=700&auto=format&fit=crop',
   },
 ];
 
@@ -41,21 +41,21 @@ const TESTIMONIALS = [
     name: "Mme Ngono, Parent d'élève",
     role: "Parent d'élève",
     message: "Mon fils a énormément progressé depuis son admission au Collège I.T.I.E. L'encadrement est sérieux et humain.",
-    avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&auto=format&fit=crop',
+    // avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&auto=format&fit=crop',
   },
   {
     id: 2,
     name: 'M. Etoundi, Ancien élève (promotion 2018)',
     role: 'Ancien élève',
     message: "La filière technique industrielle m'a donné toutes les bases pour réussir dans mon métier aujourd'hui.",
-    avatar: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=200&auto=format&fit=crop',
+    // avatar: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=200&auto=format&fit=crop',
   },
   {
     id: 3,
     name: 'M. Belinga, Enseignant',
     role: 'Enseignant',
     message: "Un établissement où la discipline et le travail sont au cœur de chaque enseignement. Une fierté d'y enseigner.",
-    avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=200&auto=format&fit=crop',
+    // avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=200&auto=format&fit=crop',
   },
 ];
 
@@ -148,7 +148,7 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap gap-4 pt-2">
               <a
-                href="#inscription"
+                href="Inscription"
                 className="px-7 py-3.5 rounded-full font-semibold text-white bg-gradient-to-br from-[#F2994A] to-[#D9772E] hover:bg-none hover:bg-[#5B2A86] shadow-[0_10px_24px_rgba(242,153,74,0.35)] hover:shadow-[0_10px_24px_rgba(91,42,134,0.35)] hover:-translate-y-1 transition-all duration-300"
               >
                 Inscription en ligne

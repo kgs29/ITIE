@@ -37,7 +37,7 @@ const TEAM = [
   },
   {
     id: 2,
-    name: "Mme Censeur des Études",
+    name: "Mr Censeur des Études",
     role: "Censeur",
     image: VieSport  ,
     desc: "Responsable du suivi pédagogique et de la discipline générale.",
@@ -55,8 +55,8 @@ const TEAM = [
   },
   {
     id: 4,
-    name: "Mme Intendante",
-    role: "Intendante",
+    name: "Mr Intendant",
+    role: "Intendant",
     image: VieSport ,
     desc: "Gestion administrative et financière de l'établissement.",
     phone: "690 98 72 84",

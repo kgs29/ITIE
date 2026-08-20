@@ -1,4 +1,5 @@
 import React from 'react';
+import Evenement from '../assets/ITIE2.jpeg';
 
 // Tableau des actualités dynamique et modifiable
 const NEWS = [
@@ -14,35 +15,35 @@ const NEWS = [
     date: "02 juin 2026",
     title: "Résultats des examens 2026",
     text: "Nos élèves de Terminale obtiennent d'excellents résultats cette année, confirmant la qualité de l'encadrement pédagogique.",
-    image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=700&auto=format&fit=crop",
+    // image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=700&auto=format&fit=crop",
   },
   {
     id: 3,
     date: "18 mai 2026",
     title: "Semaine de l'excellence technique",
     text: "Exposition des réalisations des élèves des filières industrielles : électricité, mécanique, construction et informatique.",
-    image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=700&auto=format&fit=crop",
+    // image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=700&auto=format&fit=crop",
   },
   {
     id: 4,
     date: "22 avril 2026",
     title: "Tournoi sportif inter-classes",
     text: "Football, basketball et athlétisme ont rythmé cette semaine sportive très disputée entre les classes.",
-    image: "https://images.unsplash.com/photo-1517486808906-6ca8b3f8e1c1?q=80&w=700&auto=format&fit=crop",
+    // image: "https://images.unsplash.com/photo-1517486808906-6ca8b3f8e1c1?q=80&w=700&auto=format&fit=crop",
   },
   {
     id: 5,
     date: "10 mars 2026",
     title: "Semaine culturelle",
     text: "Théâtre, musique et exposition d'art organisés par les élèves autour du thème de l'identité camerounaise.",
-    image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=700&auto=format&fit=crop",
+    // image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=700&auto=format&fit=crop",
   },
   {
     id: 6,
     date: "15 septembre 2025",
     title: "Rentrée scolaire 2025-2026",
     text: "Cérémonie de rentrée en présence des parents, des enseignants et de l'administration du Collège I.T.I.E.",
-    image: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=700&auto=format&fit=crop",
+    image: Evenement,
   },
 ];
 
